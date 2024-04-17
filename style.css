@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body {
+    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    font-family: 'Reboto', sans-serif;
 }
 
 ul {
@@ -14,6 +18,10 @@ a {
 
 .links {
     display: flex;
+    flex: 1 0 auto;
+    margin-right: 200px;
+    gap: 30px;
+    padding: 0;
 }
 
 .link {
@@ -26,19 +34,77 @@ a {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
-    margin-left: 100px;
+    margin-left: 200px;
+    margin-right: auto;
+    font-weight: bold;
 }
 
 .header {
     background-color: #1F2937;
     flex: auto;
-    height: 50px;
+    height: 75px;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 }
 
 .content {
     background-color: white;
     flex: auto;
     display: flex;
+    height: 600px;
+    flex-direction: column;
+}
+
+.one {
+    background-color: #1F2937;
+    flex: 0 1 auto;
+    height: 425px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.initial-text {
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.title {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.button-one {
+    flex: 0 1 auto;
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    font-size: 16px
+}
+
+.image {
+    margin-right: 200px;
+    margin-top: 100px;
+    width: 450px;
+}
+
+#test {
+    background-color: gray;
+    width: 450px;
+    height: 223px;
 }
