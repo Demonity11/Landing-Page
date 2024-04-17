@@ -52,7 +52,7 @@ a {
     background-color: white;
     flex: auto;
     display: flex;
-    height: 600px;
+    min-height: 1700px;
     flex-direction: column;
 }
 
@@ -221,3 +221,11 @@ img {
     border-color: white;
 }
 
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    align-items: center;
+}
