@@ -58,7 +58,7 @@ a {
 
 .one {
     background-color: #1F2937;
-    flex: 0 1 auto;
+    flex: 0 0 auto;
     height: 425px;
     display: flex;
     justify-content: space-between;
@@ -73,7 +73,7 @@ a {
     gap: 5px;
 }
 
-.title {
+.hero {
     margin: 0;
     font-size: 48px;
     font-weight: bolder;
@@ -97,7 +97,7 @@ a {
     font-size: 16px
 }
 
-.image {
+#image-test {
     margin-right: 200px;
     margin-top: 100px;
     width: 450px;
@@ -107,4 +107,56 @@ a {
     background-color: gray;
     width: 450px;
     height: 223px;
+}
+
+.two {
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    align-items: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.images {
+    height: 200px;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.image {
+    flex: 0 0 auto;
+    height: 200px;
+    width: 200px;
+    background-color: #3882F6;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 4px 4px 4px 4px;
+}
+
+img {
+    height: 192px;
+    width: 192px;
+}
+
+.subtext-under-images {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 10px;
+}
+
+.under-images {
+    flex: 0 0 auto;
+    height: 200px;
+    width: 200px;
+    color: black;
+    text-align: center;
 }
