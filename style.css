@@ -86,7 +86,7 @@ a {
     margin: 0;
 }
 
-.button-one {
+.button {
     flex: 0 1 auto;
     width: 125px;
     height: 40px;
@@ -199,5 +199,25 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.blue-box {
+    width: 1050px;
+    border-radius: 10px;
+    height: 175px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.header-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.b2 {
+    border-color: white;
 }
 
