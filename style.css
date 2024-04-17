@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+}
+
+.link {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 100px;
+}
+
+.header {
+    background-color: #1F2937;
+    flex: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    background-color: white;
+    flex: auto;
+    display: flex;
+}
